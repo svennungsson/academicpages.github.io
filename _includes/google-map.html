@@ -1,11 +1,11 @@
-<div id="map" style="width:300px;height:300px;"></div>
+<div id="map" style="width:720px;height:360px;"></div>
 <script>
   window.mapData = {"latitude": {{ include.latitude }},"longitude": {{ include.longitude }}, "zoom": {{ include.zoom}}};
 
   function initMap() {
     var myOptions = {
-      scrollwheel: false,
-      draggable: false,
+      scrollwheel: true,
+      draggable: true,
       panControl: false,
       disableDefaultUI: true,
       zoom: window.mapData.zoom,
