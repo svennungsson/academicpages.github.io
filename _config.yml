@@ -112,6 +112,8 @@ author:
   youtube          :
   wikipedia        :
 
+# API
+google_maps_javascript_api_key : "AIzaSyB5OlrnzRcNxJwKNOMV7ieHN5XI-2R6gAM"
 
 # Reading Files
 include:
